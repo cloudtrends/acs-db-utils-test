@@ -55,8 +55,8 @@ import com.domolo.cloudstack.db.Host.Type;
 @Local(value = {HostDao.class})
 @DB
 @TableGenerator(name = "host_req_sq", table = "op_host", pkColumnName = "id", valueColumnName = "sequence", allocationSize = 1)
-public class HostDaoImpl extends GenericDaoBase<HostVO, Long> implements HostDao { //FIXME: , ExternalIdDao {
-    private static final Logger s_logger = Logger.getLogger(HostDaoImpl.class);
+public class HostDaoImplEx extends GenericDaoBase<HostVO, Long> implements HostDao { //FIXME: , ExternalIdDao {
+    private static final Logger s_logger = Logger.getLogger(HostDaoImplEx.class);
     private static final Logger status_logger = Logger.getLogger(Status.class);
     private static final Logger state_logger = Logger.getLogger(ResourceState.class);
 
@@ -122,7 +122,7 @@ public class HostDaoImpl extends GenericDaoBase<HostVO, Long> implements HostDao
     //@Inject
     //protected ClusterDao _clusterDao;
 
-    public HostDaoImpl() {
+    public HostDaoImplEx() {
         super();
     }
 

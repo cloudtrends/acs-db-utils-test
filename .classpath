@@ -19,5 +19,10 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/cloud-api"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cloud-plugin-hypervisor-xenserver"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cloud-core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cloud-plugin-network-ovs"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cloud-engine-schema"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/cloud-framework-cluster"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

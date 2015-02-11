@@ -25,7 +25,11 @@
 </dependency>
     
     
-    
+        <dependency>
+      <groupId>com.trilead</groupId>
+      <artifactId>trilead-ssh2</artifactId>
+      <version>1.0.0-build217</version>
+    </dependency>
     
     
     <dependency>
@@ -33,6 +37,13 @@
   <artifactId>ehcache</artifactId>
   <version>2.9.0</version>
 </dependency>
+    
+    
+        <dependency>
+      <groupId>net.java.dev.vcc.thirdparty</groupId>
+      <artifactId>xen-api</artifactId>
+      <version>6.2.0-3.1</version>
+    </dependency>
     
     
     

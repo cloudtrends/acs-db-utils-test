@@ -29,6 +29,9 @@ public class UserVmTcDetailVO {
     @Column(name = "vm_id")
     private long vmId;
     
+    @Column(name = "vm_tc_id")
+    private long vmTcId; // while connected with tc child class id , should less than 1000
+    
     @Column(name = "guest_user_id")
     private long guestUserId;
     
